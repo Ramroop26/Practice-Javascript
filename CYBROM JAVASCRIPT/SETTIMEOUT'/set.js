@@ -5,6 +5,7 @@
 // }, 2000);
 // console.log(" Completed");
 //------------------------------------------------------------setTimeout--------------------------------------------------------------//
+// settimeout is used to execute a function once after a specified time delay 
 //setTimeout(function, delay) delay=> time in milliseconds
 // setTimeout is used to execute a function after a specified time
 // let set=()=>{
@@ -13,7 +14,7 @@
 // }, 3000);
 // }
 //-------------------------------------------------------------setInterval--------------------------------------------------------------//
-//setInterval is used 
+//setInterval is used to execute a function at specified intervals
 // let set=()=>{
 // setInterval(()=>{ // high order function
 //     console.log("Ramroop Prajapati");
@@ -27,7 +28,7 @@
 let set=()=>{
 inteval=setInterval(()=>{ 
     count++;
-    console.log(count);
+    document.write(count);
 }, 3000);
 }
 let stopp=()=>{

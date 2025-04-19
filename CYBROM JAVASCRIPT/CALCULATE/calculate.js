@@ -9,7 +9,7 @@ let Result =()=>{
     let show = document.querySelector("#display")
     show.innerHTML = eval(store) //"1+2"=3
     store= toString()
-    store.innerHTML=store
+    // store.innerHTML=store
 }
 
 let del=()=>{
@@ -18,6 +18,11 @@ let del=()=>{
     show.innerHTML = store
 }
 
+let al=()=>{
+    let show = document.querySelector("#display")
+    store = ""
+    show.innerHTML = store
+}
 
 
 
