@@ -1,6 +1,6 @@
 let val =()=>{
 
-let name = document.querySelector("#Name").value 
+let name = document.querySelector("#Name").value.trim()
 let number = document.querySelector("#Number").value
 let email = document.querySelector("#Email").value 
 let password = document.querySelector("#Password").value 
@@ -15,10 +15,11 @@ let errconfirmpassword = document.querySelector("#errconfirmpassword")
 
 
 
-if(name===""){
+if(name==""){
     errname.innerHTML=" please enter your name"
     errname.style.color="red"
-    document.querySelector("#name").style.border="1px solid red"
+    namebox.style.border="1px solid red"
+    // document.querySelector("#name").style.border="1px solid red"
     return false
 }
 
