@@ -1,5 +1,5 @@
 
-// DOM => DOCUMENT OBJECT MODEL
+// DOM => DOCUMENT OBJECT MODEL Manuplate  tree -like structure of HTML document
 
 // 1. document.getElementById()
 // 2. document.getElementByClass()

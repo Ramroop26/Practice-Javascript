@@ -44,15 +44,19 @@ function message() {
     //    var num2 = Number(num2);
     //         alert( num1+num2)
         
+    // ---------------TASK 2. -----------------//
+
+    let num=1234
+    console.log(Number(num.toString().split("").reverse().join("")));
     
   
 
     
 }
 
-// message();
+message();
 
 
 
-  // ---------------TASK 2. -----------------//
+
 
